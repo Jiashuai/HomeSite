@@ -30,7 +30,54 @@ module.exports = function(app, express) {
         res.render('project');
     });
 
-    app.post('/app/message', require('./api/support').sendMessage);
+    app.post('/app/message', require('./api/support').sendMessage);   <!--这个是党老师在演示前端测试post时用的-->
+    app.get('/test', function(req, res){
+
+
+
+
+        var mongodb = require("mongodb");
+
+        var server = new mongodb.Server('localhost',27017,{auto_reconnect:true});
+
+        var db = new mongodb.Db("homesite",server,{safe:false});
+
+        db.open(function(err,db){
+            if(err){
+                console.log(err);
+                return false;
+            }
+
+            <!--查询一个collection中的内容 -->
+            db.collection('languages',{safe:true},function(err,collection){
+                collection.find().toArray(function(err,items){
+                    var json_data = [];
+                    if(err){
+                        console.log(err);
+                        return false;
+                    }
+                    for(var item in items) {
+//                      console.log(items[item]);
+                        json_data.push(items[item]);
+
+                    }
+                    res.json(json_data);
+//                    process.exit();
+                });
+
+
+            });
+        });
+
+
+
+
+
+
+
+
+
+    });
 
 
     //error handler
