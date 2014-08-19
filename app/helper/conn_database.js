@@ -5,14 +5,13 @@
 
 exports.conn_db = function(){
 
-    var config = require("../../config");   //配置文件
+    var config = require("../../config");   //request the config files.
 
-    var mongodb = require("mongodb");   //连接mongodb驱动
+    var mongodb = require("mongodb");   //connect to the mongodb driver.
 
     var server = new mongodb.Server(config.mongodb.hostaddress,config.mongodb.port,{auto_reconnect:true});
 
     var db = new mongodb.Db(config.mongodb.dbname,server,{safe:false});
-
 
     return db;
 

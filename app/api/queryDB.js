@@ -5,7 +5,7 @@
 
 exports.readMsg = function(req,res){
 
-    var db = require("../helper/conn_database").conn_db();   //连接数据库
+    var db = require("../helper/conn_database").conn_db();   //connect to the databases
 
 
     db.open(function(err,db){
@@ -14,7 +14,7 @@ exports.readMsg = function(req,res){
             return false;
         }
 
-        <!--查询一个collection中的内容 -->
+        <!--query the content of collection -->
         db.collection('languages',{safe:true},function(err,collection){
             collection.find().toArray(function(err,items){
                 if(err){
@@ -23,7 +23,7 @@ exports.readMsg = function(req,res){
                 }
                 res.json(items);
 //              process.exit();
-                db.close();   //关闭数据库连接。这一语句只能写在这个地方，放在别出报错。
+                db.close();   //close the connection.
                 console.log("the db-connection is closed.");
             });
         });

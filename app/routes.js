@@ -30,7 +30,7 @@ module.exports = function(app, express) {
         res.render('project');
     });
 
-    app.post('/app/message', require('./api/support').sendMessage);   <!--这个是党老师在演示前端测试post时用的-->
+    app.post('/app/message', require('./api/support').sendMessage);
     app.get('/test', require('./api/queryDB').readMsg);
 
 
