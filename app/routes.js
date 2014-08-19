@@ -51,17 +51,11 @@ module.exports = function(app, express) {
             <!--查询一个collection中的内容 -->
             db.collection('languages',{safe:true},function(err,collection){
                 collection.find().toArray(function(err,items){
-                    var json_data = [];
                     if(err){
                         console.log(err);
                         return false;
                     }
-                    for(var item in items) {
-//                      console.log(items[item]);
-                        json_data.push(items[item]);
-
-                    }
-                    res.json(json_data);
+                    res.json(items);
 //                    process.exit();
                 });
 
