@@ -32,7 +32,7 @@ module.exports = function(app, express) {
     });
 
     app.post('/app/message', require('./api/support').sendMessage);
-    app.get('/test', require('./api/queryDB').readMsg);
+    app.get('/test/:language', require('./api/language').readMsg);
 
 
     //error handler
