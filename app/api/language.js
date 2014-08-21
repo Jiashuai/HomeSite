@@ -5,17 +5,18 @@
 
 exports.readMsg = function(req,res){
 
-    var db = require("../helper/conn_database").conn_db();   //connect to the databases
+    var db = require("../helper/dbhelper").conn_db();   //connect to the databases
 
     var language = req.params.language;
 
-
+    <!--query the content of collection -->
     db.open(function(err,db){
+
         if(err){
             console.log(err);
             return false;
         }
-        <!--query the content of collection -->
+
         if(language == 'en'){
             db.collection('language_en',{safe:true},function(err,collection){
                 collection.find().toArray(function(err,items){
