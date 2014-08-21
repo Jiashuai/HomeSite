@@ -16,6 +16,7 @@ module.exports = function(app, express) {
 
     app.get('/', function(req, res){
         res.render('index');
+
     });
     app.get('/contact', function(req, res){
         res.render('contact');

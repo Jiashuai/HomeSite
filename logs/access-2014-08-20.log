@@ -1,0 +1,38 @@
+{"level":"info","message":"Request:  /","timestamp":"2014-08-20T06:46:15.989Z"}
+{"level":"info","message":"Request:  /","timestamp":"2014-08-20T06:46:46.423Z"}
+{"level":"info","message":"Request:  /","timestamp":"2014-08-20T06:47:27.209Z"}
+{"level":"info","message":"Request:  /","timestamp":"2014-08-20T07:08:25.734Z"}
+{"level":"info","message":"Request:  /","timestamp":"2014-08-20T07:08:29.021Z"}
+{"level":"info","message":"Request:  /","timestamp":"2014-08-20T07:08:49.472Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T08:02:45.913Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T08:02:46.989Z"}
+{"level":"info","message":"Request:  /about","timestamp":"2014-08-20T08:03:43.543Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T08:04:32.476Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T08:15:23.023Z"}
+{"level":"info","message":"Request:  /","timestamp":"2014-08-20T08:16:11.158Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T08:18:22.088Z"}
+{"level":"warn","message":"Resource not found :  /test","timestamp":"2014-08-20T08:18:22.089Z"}
+{"level":"info","message":"Request:  /test.json","timestamp":"2014-08-20T08:18:25.889Z"}
+{"level":"info","message":"Request:  /test.json","timestamp":"2014-08-20T08:19:16.720Z"}
+{"level":"info","message":"Request:  /","timestamp":"2014-08-20T09:08:13.867Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T09:08:17.172Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T09:08:43.607Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T09:39:54.583Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T09:39:55.683Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T09:39:55.866Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T09:46:18.825Z"}
+{"view":{"name":"lan","root":"D:\\WorkSpace_WebStorm\\HomeSite/app/views","defaultEngine":"hbs","ext":".hbs"},"level":"error","message":"Something went wrong : ","timestamp":"2014-08-20T09:46:19.111Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T09:48:47.334Z"}
+{"view":{"name":"lan","root":"D:\\WorkSpace_WebStorm\\HomeSite/app/views","defaultEngine":"hbs","ext":".hbs"},"level":"error","message":"Something went wrong : ","timestamp":"2014-08-20T09:48:47.606Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T09:49:34.058Z"}
+{"view":{"name":"lan","root":"D:\\WorkSpace_WebStorm\\HomeSite/app/views","defaultEngine":"hbs","ext":".hbs"},"level":"error","message":"Something went wrong : ","timestamp":"2014-08-20T09:49:34.390Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T09:50:58.426Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T10:31:26.448Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T10:31:27.708Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T10:31:28.002Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T10:31:28.203Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T10:34:10.179Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T10:38:13.698Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T10:39:02.056Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T11:25:48.629Z"}
+{"level":"info","message":"Request:  /test","timestamp":"2014-08-20T11:26:15.995Z"}
