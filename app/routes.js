@@ -32,13 +32,11 @@ module.exports = function(app, express) {
     });
 
     app.post('/app/message', require('./api/support').sendMessage);
-<<<<<<< HEAD
+
     app.get('/test/:language', require('./api/language').readMsg);
 
-
-=======
     app.get('/app/personnel',require('./api/personnel').readStaff);
->>>>>>> upstream/master
+
     //error handler
     app.use(require('./views/http/index').http500);
     app.use(require('./views/http/index').http404);
